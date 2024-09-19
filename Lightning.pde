@@ -48,8 +48,6 @@ void draw()
   }
   while(endY<800)
   {
-    System.out.print(thickness);
-    System.out.println(hue);
     endX=startX + (int)(Math.random()*30)-13;
     endY=startY + (int)(Math.random()*9)+1;
     line(startX,startY,endX,endY);
